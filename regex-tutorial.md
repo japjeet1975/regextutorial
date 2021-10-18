@@ -30,22 +30,22 @@ https://www.fon.hum.uva.nl/praat/manual/Regular_expressions_1__Special_character
 - [Flags](#Flags)
 
 
-#Quantifiers :* + ? and {} : 
+###Quantifiers :* + ? and {} : 
 
 {n} Matches a number with n number of digits
 eg. {3}matches a number with 3 digits
 {4} matches a number with 4 digits
 
-#OR Operator [] : 
+###OR Operator [] : 
 Here [ -]? it means either space or a hypen - 
 
-#Capturing Group : () : Groups multiple token together and creates a capture group for extracting a substring or using a backreference. 
+###Capturing Group : () : Groups multiple token together and creates a capture group for extracting a substring or using a backreference. 
 
 
-#Character Classes : \d \w\s and :
+###Character Classes : \d \w\s and :
 \d matches a single character that is a digit
 
-#Flags : g m i :
+###Flags : g m i :
 Flags can be used to elaborate the scope of search algortihm . 
 g is used for global . The search doesnot get completed after its first match , it still goes upto the end. 
 
